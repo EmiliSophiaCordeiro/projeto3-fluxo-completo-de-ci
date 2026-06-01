@@ -4,7 +4,7 @@
   "description": "API de tarefas usada como projeto base de CI/CD",
   "main": "dist/index.js",
   "scripts": {
-    "start": "npm run build && node dist/index.js",
+    "start": "npm run build ",
     "dev": "tsx watch src/index.ts",
      "build": "echo Build executado com sucesso",
     "test": "jest --forceExit",
